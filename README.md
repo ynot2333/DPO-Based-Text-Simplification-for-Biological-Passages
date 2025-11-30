@@ -122,15 +122,15 @@ python run.py
 
 ## 配置说明
 
-* `inference.py`：推理主程序，负责加载模型、LoRA 权重、句向量模型与高中词库。
+* `run.py`：推理主程序，负责加载模型、LoRA 权重、句向量模型与高中词库。
 * 模型权重路径：在脚本中指定基础模型（例如 DeepSeek-V2-Lite-Chat）的路径与 LoRA 权重路径。
 * 高中词库与 embedding：确保 `hs_emb_path` 与 `hs_words_dict_path` 指向正确的文件。
-* 若使用 OpenAI 或第三方 API，请在环境变量或配置文件中配置 API Key（不要硬编码到代码中）。
+* 若使用 DEEPSEEK API，请在环境变量或配置文件中配置 API Key。
 
 示例环境变量加载（bash）：
 
 ```bash
-export OPENAI_API_KEY="your_api_key_here"
+export DEEPSEEK_API_KEY="your_api_key_here"
 ```
 
 ---
