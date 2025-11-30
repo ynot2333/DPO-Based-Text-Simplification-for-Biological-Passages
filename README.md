@@ -1,6 +1,6 @@
 # 🧬 DPO-Based Text Simplification for Biological Passages
 
-![Uploading Gemini_Generated_Image_tnlrqhtnlrqhtnlr.png…]()
+![模型框架图](./model_framework.png)
 
 
 本项目旨在构建一个适用于生物医学文本的 **DPO（Direct Preference Optimization）文本简化系统**，目标是将学术或科研风格的英文段落简化为高中生可理解的中文文本。主要能力包括：
